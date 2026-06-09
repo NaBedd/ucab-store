@@ -82,7 +82,7 @@ function itemHTML(it) {
             <span class="qty">${it.qty}</span>
             <button data-inc="${it.productId}" aria-label="Sumar">+</button>
           </div>
-          <button class="btn btn-sm btn-ghost" data-clone="${it.productId}">Clonar</button>
+          <button class="btn btn-sm btn-ghost" data-clone="${it.productId}">Agregar</button>
           <button class="btn btn-sm btn-danger" data-remove="${it.productId}">Eliminar</button>
         </div>
       </div>

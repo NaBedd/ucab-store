@@ -41,8 +41,8 @@ function render() {
       <button class="btn btn-primary btn-block" type="submit">Entrar</button>
 
       <div style="margin-top:1rem;display:flex;gap:.5rem;flex-wrap:wrap">
-        <button type="button" class="btn btn-sm btn-ghost" id="fillAdmin">Usar demo admin</button>
-        <button type="button" class="btn btn-sm btn-ghost" id="fillClient">Usar demo cliente</button>
+        <button type="button" class="btn btn-sm btn-ghost" id="fillAdmin">Login Administrador</button>
+        <button type="button" class="btn btn-sm btn-ghost" id="fillClient">Login Cliente</button>
       </div>
 
       <p class="muted-link" style="margin-top:1rem;text-align:center">
@@ -50,11 +50,7 @@ function render() {
         <a href="#" id="forgotLink">Olvidé mi contraseña</a>
       </p>
 
-      <p class="muted-link" style="text-align:center;font-size:.78rem;line-height:1.5">
-        <strong>Credenciales demo:</strong><br/>
-        Admin: <code>${DEMO_CREDENTIALS.admin.email}</code> / <code>${DEMO_CREDENTIALS.admin.password}</code><br/>
-        Cliente: <code>${DEMO_CREDENTIALS.client.email}</code> / <code>${DEMO_CREDENTIALS.client.password}</code>
-      </p>
+     
     </form>
   `;
 
